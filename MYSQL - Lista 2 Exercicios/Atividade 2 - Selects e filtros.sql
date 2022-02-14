@@ -6,7 +6,9 @@ select * from tb_produto;
 
 Select id, produtos, qtde_produtos, valores_produtos FROM tb_produto WHERE valores_produtos > 45.0;
 
-Select id, produtos, qtde_produtos, valores_produtos FROM tb_produto WHERE valores_produtos > 45.0;
+Select id, produtos, qtde_produtos, valores_produtos FROM tb_produto WHERE valores_produtos < 45.0;
+
+Select id, produtos, qtde_produtos, valores_produtos FROM tb_produto WHERE valores_produtos >=29.0 and valores_produtos <= 60.0;
 
 Select id, produtos, qtde_produtos, valores_produtos
 from tb_produto
